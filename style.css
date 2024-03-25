@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font:"VT323", monospace;;
+    --bg-color:rgb(8, 8, 70);
+    --font-color:rgb(232, 248, 177);
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: var(--font);
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    margin: 2rem;
+    width: 80vw;
+    text-align: center;
+    word-spacing: 2rem;
+}
+
+.box{
+    border: .7rem solid rgb(0, 0, 0);
+    border-radius: 3rem;
+    width: 14rem;
+    height: 14rem;
+    margin: 2rem;
+}
+
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+
+.container{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-grey{
+    background-color: #aba6a6;
+    box-shadow: 1px 4px 20px 19px rgba(171,166,166,1),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
+}
